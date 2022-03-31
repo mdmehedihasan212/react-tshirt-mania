@@ -1,0 +1,19 @@
+.navigation-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.navigation-link {
+    display: flex;
+}
+
+nav a {
+    text-decoration: none;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+nav a:hover {
+    color: orange;
+}
