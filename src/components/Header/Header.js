@@ -9,7 +9,6 @@ const Header = () => {
             <div className='navigation-link'>
                 <CustomLink to={'/'}>Home</CustomLink>
                 <CustomLink to={'/shop'}>Shop</CustomLink>
-                <CustomLink to={'/order'}>Order</CustomLink>
                 <CustomLink to={'/order-review'}>Order Review</CustomLink>
                 <CustomLink to={'/about'}>About</CustomLink>
             </div>
