@@ -36,7 +36,6 @@ const Home = () => {
                 }
             </div>
             <div className="order-container">
-                <h1>Order</h1>
                 <OrderReview
                     cart={cart}
                     RemoveToProduct={RemoveToProduct}
