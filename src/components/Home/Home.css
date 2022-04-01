@@ -8,3 +8,32 @@
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 20px;
 }
+
+@media screen and (max-width: 1279px) {
+
+    .tShirt-container {
+
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .tShirt-container {
+
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+    .tShirt-container {
+
+        grid-template-columns: 1fr;
+    }
+
+    .order-container {
+
+        grid-template-columns: 1fr;
+    }
+}

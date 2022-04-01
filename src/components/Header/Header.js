@@ -8,8 +8,8 @@ const Header = () => {
             <h1>Welcome T-shirt Mania!!!</h1>
             <div className='navigation-link'>
                 <CustomLink to={'/'}>Home</CustomLink>
-                <CustomLink to={'/shop'}>Shop</CustomLink>
                 <CustomLink to={'/order-review'}>Order Review</CustomLink>
+                <CustomLink to={'/grandma'}>GrandMa</CustomLink>
                 <CustomLink to={'/about'}>About</CustomLink>
             </div>
         </nav>
